@@ -1,0 +1,449 @@
+/* Colors */
+/* Colors */
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Oswald&family=Roboto:wght@300&display=swap");
+/* fonts */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F6F6F6;
+}
+
+.register-page {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register-card {
+  min-height: 500px;
+  height: auto;
+  min-width: 40%;
+  -webkit-box-shadow: 15px 15px 15px #000, -15px -15px -15px #FFF;
+          box-shadow: 15px 15px 15px #000, -15px -15px -15px #FFF;
+  background-color: #FFF;
+  padding: 0px;
+  margin: 0px;
+}
+
+.login-card {
+  min-height: 350px;
+  height: auto;
+  min-width: 40%;
+  -webkit-box-shadow: 15px 15px 15px #000, -15px -15px -15px #FFF;
+          box-shadow: 15px 15px 15px #000, -15px -15px -15px #FFF;
+  background-color: #FFF;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+  height: 400px;
+  width: 100%;
+  color: #FFF;
+  background-color: #125D98;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+}
+
+.main .heading {
+  width: 70%;
+  text-align: center;
+  padding: 10px 100px;
+}
+
+.main .heading .intro-title {
+  font-size: 35px;
+  font-family: "Oswald", sans-serif;
+}
+
+.main .heading .intro {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.main .heading .button {
+  background-color: #FFF;
+  color: #125D98;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.main .heading .button:hover {
+  text-decoration: none;
+  background-color: #e6e6e6;
+}
+
+.heading-lent {
+  height: 400px;
+  width: 100%;
+  background-color: #125D98;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  -webkit-transform: skewY(-5deg);
+          transform: skewY(-5deg);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  z-index: -1;
+}
+
+.col-style {
+  padding: 0px;
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title-section {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+}
+
+.title-section .app-title1 {
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.title-section .app-title2 {
+  font-size: 35px;
+  letter-spacing: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.form-section .form {
+  height: 80%;
+  width: 80%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.form-section .form .title {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #125D98;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+.form-section .form .button {
+  padding: 10px;
+  background-color: #125D98;
+  color: #FFF;
+  border: none;
+  outline: none;
+}
+
+.form-section .form .form-group .form-control {
+  border-radius: 0%;
+  font-size: 18px;
+  color: #125D98;
+}
+
+.form-section .form .form-group .form-control:focus {
+  border: 1px solid #1a87dc;
+}
+
+.title-section {
+  background-color: #125D98;
+  color: #FFF;
+}
+
+.help-text {
+  font-size: 15px;
+  color: #F8485E;
+}
+
+.bg-primary {
+  background-color: #125D98 !important;
+  color: #FFF !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  color: #FFF;
+}
+
+.navbar-toggler:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler-icon {
+  color: #FFF;
+}
+
+.dropdown-menu {
+  border-radius: 0%;
+  background-color: #FFF;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #125D98;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #125D98;
+  color: #FFF;
+}
+
+.navbar .navbar-brand {
+  font-family: "Oswald", sans-serif !important;
+  font-size: 25px !important;
+  font-weight: 300 !important;
+}
+
+.navbar .nav-link {
+  color: #FFF;
+  font-family: "Roboto", sans-serif !important;
+  font-size: 20px;
+  color: #FFF !important;
+}
+
+.navbar .nav-link:hover {
+  color: #bfbfbf;
+}
+
+.navbar .profile-menu {
+  margin-right: 25px;
+}
+
+.navbar .dropdown-menu {
+  right: 0;
+}
+
+.landing-section {
+  height: 90vh;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.landing-section .image-section {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.landing-section .intro-section {
+  background-color: #4fd0b0 !important;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing-section .intro-section .intro-div {
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+}
+
+.landing-section .intro-section .intro-div .intro-title {
+  font-family: "Oswald", sans-serif !important;
+  color: #125D98;
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.landing-section .intro-section .intro-div .intro {
+  font-size: 25px;
+  font-weight: 500;
+  color: #125D98;
+}
+
+.landing-section .intro-section .intro-div .button {
+  padding: 10px 30px !important;
+  width: auto !important;
+  height: auto !important;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.landing-section .intro-section .intro-div .button:hover {
+  background-color: #1779c6;
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #125D98 !important;
+  color: #FFF !important;
+}
+
+.card {
+  -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 0%;
+}
+
+.info-sections {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.info-sections .card {
+  margin-bottom: 40px;
+}
+
+.info-sections .card .card-body {
+  padding: 40px;
+}
+
+.info-sections .card .card-body .row img {
+  height: 120px;
+  width: 120px;
+}
+
+.info-sections .card .card-body .row .info h3 {
+  color: #125D98;
+}
+
+.explain-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.explain-section .main {
+  height: 200px;
+}
+
+.explain-section .main .heading {
+  text-align: left;
+}
+
+.explain-section .main .button {
+  margin: 0px;
+}
+
+.explain-section .main .heading-lent {
+  top: 0;
+  height: 200px !important;
+}
+
+.example-section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+  background-color: #FFF;
+}
+
+.example-section .example-div {
+  width: 70%;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.example-section .example-div .title {
+  color: #125D98;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 5px;
+}
+
+.example-section .example-div .example-des {
+  color: grey;
+  font-size: 17px;
+}
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.def-title {
+  font-size: 38px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: #125D98;
+}
+
+.text-grey {
+  color: grey;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 800px) {
+  .form-section, .title-section {
+    min-height: 500px;
+  }
+  .register-card {
+    height: 100%;
+  }
+  .landing-section {
+    min-height: 90vh;
+    height: auto;
+  }
+  .landing-section .image-section {
+    height: 70vh;
+  }
+  .landing-section .intro-section {
+    height: 70vh;
+  }
+  .landing-section .intro-section .intro-div {
+    width: 100% !important;
+  }
+  .landing-section .intro-section .intro-div .intro-title {
+    font-size: 35px !important;
+  }
+  .landing-section .intro-section .intro-div .intro {
+    font-size: 20px !important;
+  }
+}
